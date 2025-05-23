@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0c0824;
+  color: white;
+  display: flex;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+aside {
+  width: 250px;
+  background-color: #12122e;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.socials img {
+  width: 25px;
+  margin: 10px 5px;
+}
+
+main {
+  flex-grow: 1;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 10px 0;
+}
+
+.buttons button {
+  margin: 10px 10px 0 0;
+  padding: 10px 20px;
+  background-color: #5d3fd3;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.news ul {
+  list-style: none;
+  padding: 0;
+}
+
+.news li {
+  margin: 10px 0;
+}
