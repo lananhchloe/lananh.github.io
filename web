@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lan Anh | FTU Student</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <aside>
+      <img src="assets/profile.jpg" alt="profile" class="avatar">
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Projects</a>
+        <a href="#">CV</a>
+        <a href="#">Contact</a>
+      </nav>
+      <div class="socials">
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" /></a>
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733635.png" alt="LinkedIn" /></a>
+      </div>
+    </aside>
+    <main>
+      <h3>Hey there 👋</h3>
+      <h1>I'm Lan Anh</h1>
+      <h2>An International Economics student at FTU 💼</h2>
+      <div class="buttons">
+        <button>Let's connect!</button>
+        <button>My Project</button>
+        <button>Email me</button>
+      </div>
+      <section class="news">
+        <h3>News</h3>
+        <ul>
+          <li><strong>[23/05/25]</strong> I launched my personal website with GitHub Pages!</li>
+          <li><strong>[15/05/25]</strong> Started my research on underground economy & FDI 😎</li>
+        </ul>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
